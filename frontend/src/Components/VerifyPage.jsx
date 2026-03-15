@@ -66,7 +66,7 @@ const VerifyPage = () => {
     setResult(null);
     try {
       const response = await axios.get(`${API_URL}/api/v1/files/verify`, {
-        params: { ipfs_hash: hash.trim() },
+        params: { file_hash: hash.trim() },
       });
       setResult({ verified: true, data: response.data });
     } catch (err) {
