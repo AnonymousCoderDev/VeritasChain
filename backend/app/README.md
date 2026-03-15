@@ -1,4 +1,4 @@
-# VeritasChain — Backend
+# VeritasChain  Backend
 
 FastAPI server for the VeritasChain decentralized media integrity platform.
 
@@ -26,9 +26,9 @@ app/
 Request → API Layer (endpoints) → Service Layer → Utility Layer → Blockchain / IPFS
 ```
 
-1. **API Layer** — validates input, handles HTTP responses
-2. **Service Layer** — orchestrates business logic
-3. **Utility Layer** — talks to Ethereum (via Web3) and IPFS
+1. **API Layer**  validates input, handles HTTP responses
+2. **Service Layer**  orchestrates business logic
+3. **Utility Layer**  talks to Ethereum (via Web3) and IPFS
 
 ## Running
 

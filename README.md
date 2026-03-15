@@ -38,7 +38,7 @@ Verify it. Prove it. Share the proof with anyone.</p>
 
 In a world where reality is manufactured, the only currency worth having is **verifiable truth**.
 
-VeritasChain lets you prove that a file — a photo, a document, a video, a dataset — existed at a specific moment in time, uploaded by a specific wallet, without trusting any centralized authority.
+VeritasChain lets you prove that a file  a photo, a document, a video, a dataset  existed at a specific moment in time, uploaded by a specific wallet, without trusting any centralized authority.
 
 > The proof lives on the Ethereum blockchain. It cannot be altered, deleted, or disputed.
 
@@ -57,7 +57,7 @@ Upload any file. Its SHA-256 fingerprint is anchored on-chain via a smart contra
 <td width="50%">
 
 **Verify**<br/>
-Paste an IPFS hash. Instantly know if it has a blockchain record — no account required.
+Paste an IPFS hash. Instantly know if it has a blockchain record  no account required.
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Paste an IPFS hash. Instantly know if it has a blockchain record — no account 
 <td width="50%">
 
 **Prove**<br/>
-Every record carries wallet address, timestamp, and transaction ID — an immutable chain of custody.
+Every record carries wallet address, timestamp, and transaction ID  an immutable chain of custody.
 
 </td>
 <td width="50%">
@@ -109,10 +109,10 @@ We never store your files. Only cryptographic fingerprints live on-chain.
    │◀── AUTHENTIC ─────────────│◀── on-chain record ────────│
 ```
 
-1. File is **hashed locally** — nothing leaves your device unencrypted
-2. File is **pinned to IPFS** — you get a content-addressed CID
-3. Hash is **anchored on-chain** — immutable, timestamped, tied to your wallet
-4. You receive a **certificate** — IPFS hash + transaction ID, shareable forever
+1. File is **hashed locally**  nothing leaves your device unencrypted
+2. File is **pinned to IPFS**  you get a content-addressed CID
+3. Hash is **anchored on-chain**  immutable, timestamped, tied to your wallet
+4. You receive a **certificate**  IPFS hash + transaction ID, shareable forever
 
 ---
 
@@ -160,16 +160,16 @@ VeritasChain/
 - **MetaMask** browser extension
 - **Ganache** (local Ethereum) or a testnet RPC URL
 
-### 1 — Smart Contracts
+### 1  Smart Contracts
 
 ```bash
 cd contracts
 npm install
 npx truffle migrate --network development
-# Note the deployed contract address — you'll need it for the backend .env
+# Note the deployed contract address  you'll need it for the backend .env
 ```
 
-### 2 — Backend
+### 2  Backend
 
 ```bash
 cd backend
@@ -187,7 +187,7 @@ uvicorn app.main:app --reload
 # Runs at http://localhost:8000
 ```
 
-### 3 — Frontend
+### 3  Frontend
 
 ```bash
 cd frontend
@@ -239,4 +239,4 @@ The belief is simple: **knowledge should be free, and the tools to verify it sho
 
 ## License
 
-MIT — do whatever you want with it.
+MIT  do whatever you want with it.

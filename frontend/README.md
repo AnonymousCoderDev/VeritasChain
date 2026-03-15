@@ -1,4 +1,4 @@
-# VeritasChain — Frontend
+# VeritasChain  Frontend
 
 React 19 app for the VeritasChain decentralized media integrity platform.
 
@@ -35,7 +35,7 @@ npm start               # http://localhost:3000
 
 ```bash
 npm run build
-# Output in /build — serve with any static host
+# Output in /build  serve with any static host
 ```
 
 ## Environment Variables

@@ -1,4 +1,4 @@
-# VeritasChain — Setup Guide
+# VeritasChain  Setup Guide
 
 Full setup instructions for running VeritasChain locally, with or without Docker.
 
@@ -15,7 +15,7 @@ Full setup instructions for running VeritasChain locally, with or without Docker
 
 ---
 
-## Option A — Docker (Recommended)
+## Option A  Docker (Recommended)
 
 The fastest way to get everything running.
 
@@ -62,7 +62,7 @@ docker compose ps
 
 ---
 
-## Option B — Manual Setup (No Docker)
+## Option B  Manual Setup (No Docker)
 
 ### 1. Start Ganache
 
@@ -74,7 +74,7 @@ Download [Ganache](https://trufflesuite.com/ganache/) and start a local workspac
 cd contracts
 npm install
 npx truffle migrate --network development
-# Copy the deployed contract address — you'll need it for the backend
+# Copy the deployed contract address  you'll need it for the backend
 ```
 
 ### 3. Backend
@@ -139,7 +139,7 @@ REACT_APP_IPFS_BASE_URL=https://ipfs.io/ipfs/
 **Containers won't start**
 ```bash
 docker compose logs <service-name>
-# Check for port conflicts — ensure 3000, 8000, 5001, 7545 are free
+# Check for port conflicts  ensure 3000, 8000, 5001, 7545 are free
 ```
 
 **Smart contract deployment fails**
@@ -184,7 +184,7 @@ docker compose -f infrastructure-compose.yml -f application-compose.yml down -v
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| `POST` | `/upload` | Stamp a file — returns IPFS hash + tx ID |
+| `POST` | `/upload` | Stamp a file  returns IPFS hash + tx ID |
 | `GET` | `/verify-ipfs` | Verify an IPFS hash against the blockchain |
 | `GET` | `/user-transactions` | Fetch all stamped files for a wallet |
 
