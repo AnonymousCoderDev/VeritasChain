@@ -2,11 +2,14 @@
 
 <br/>
 
-```
- ⬡  V E R I T A S C H A I N
-```
+<img src="frontend/public/favicon.svg" width="72" height="72" alt="VeritasChain Logo"/>
 
-<h3><em>Authenticate Reality. Preserve Truth.</em></h3>
+<br/>
+<br/>
+
+# VERITASCHAIN
+
+### *Authenticate Reality. Preserve Truth.*
 
 <p>A decentralized media integrity platform built on Ethereum + IPFS.<br/>
 Stamp any file with a cryptographic fingerprint anchored forever on the blockchain.<br/>
@@ -31,7 +34,7 @@ Verify it. Prove it. Share the proof with anyone.</p>
 
 ---
 
-## ◈ What Is This?
+## What Is This?
 
 In a world where reality is manufactured, the only currency worth having is **verifiable truth**.
 
@@ -41,19 +44,19 @@ VeritasChain lets you prove that a file — a photo, a document, a video, a data
 
 ---
 
-## ◈ Features
+## Features
 
 <table>
 <tr>
 <td width="50%">
 
-**⬡ Stamp**
+**Stamp**<br/>
 Upload any file. Its SHA-256 fingerprint is anchored on-chain via a smart contract. The file never leaves your device.
 
 </td>
 <td width="50%">
 
-**⬡ Verify**
+**Verify**<br/>
 Paste an IPFS hash. Instantly know if it has a blockchain record — no account required.
 
 </td>
@@ -61,13 +64,13 @@ Paste an IPFS hash. Instantly know if it has a blockchain record — no account 
 <tr>
 <td width="50%">
 
-**⬡ Prove**
+**Prove**<br/>
 Every record carries wallet address, timestamp, and transaction ID — an immutable chain of custody.
 
 </td>
 <td width="50%">
 
-**⬡ API Access**
+**API Access**<br/>
 Generate an API key with your MetaMask wallet. Integrate tamper-proof stamping into any pipeline.
 
 </td>
@@ -75,13 +78,13 @@ Generate an API key with your MetaMask wallet. Integrate tamper-proof stamping i
 <tr>
 <td width="50%">
 
-**⬡ No Accounts**
+**No Accounts**<br/>
 No sign-ups. No email. No passwords. Your wallet is your identity.
 
 </td>
 <td width="50%">
 
-**⬡ No File Storage**
+**No File Storage**<br/>
 We never store your files. Only cryptographic fingerprints live on-chain.
 
 </td>
@@ -90,7 +93,7 @@ We never store your files. Only cryptographic fingerprints live on-chain.
 
 ---
 
-## ◈ How It Works
+## How It Works
 
 ```
   You                     VeritasChain                  Ethereum
@@ -103,7 +106,7 @@ We never store your files. Only cryptographic fingerprints live on-chain.
    │◀── IPFS hash + tx ID ─────│                            │
    │                           │                            │
    │── verify(ipfsHash) ───────│── query contract ─────────▶│
-   │◀── ✓ AUTHENTIC ───────────│◀── on-chain record ────────│
+   │◀── AUTHENTIC ─────────────│◀── on-chain record ────────│
 ```
 
 1. File is **hashed locally** — nothing leaves your device unencrypted
@@ -113,7 +116,7 @@ We never store your files. Only cryptographic fingerprints live on-chain.
 
 ---
 
-## ◈ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -125,7 +128,7 @@ We never store your files. Only cryptographic fingerprints live on-chain.
 
 ---
 
-## ◈ Project Structure
+## Project Structure
 
 ```
 VeritasChain/
@@ -148,7 +151,7 @@ VeritasChain/
 
 ---
 
-## ◈ Running Locally
+## Running Locally
 
 ### Prerequisites
 
@@ -156,8 +159,6 @@ VeritasChain/
 - **Python** 3.10+
 - **MetaMask** browser extension
 - **Ganache** (local Ethereum) or a testnet RPC URL
-
----
 
 ### 1 — Smart Contracts
 
@@ -204,7 +205,7 @@ npm start
 
 ---
 
-## ◈ Environment Variables
+## Environment Variables
 
 **`frontend/.env`**
 ```env
@@ -222,7 +223,7 @@ IPFS_API_URL=/dns/localhost/tcp/5001/http
 
 ---
 
-## ◈ Philosophy
+## Philosophy
 
 VeritasChain was built anonymously.
 
@@ -236,6 +237,6 @@ The belief is simple: **knowledge should be free, and the tools to verify it sho
 
 ---
 
-## ◈ License
+## License
 
 MIT — do whatever you want with it.
