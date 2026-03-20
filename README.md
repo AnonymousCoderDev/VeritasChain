@@ -2,7 +2,7 @@
 
 <br/>
 
-<img src="frontend/public/favicon.svg" width="72" height="72" alt="VeritasChain Logo"/>
+<img src="VeritasChain.png" width="300" alt="VeritasChain Logo"/>
 
 <br/>
 <br/>
