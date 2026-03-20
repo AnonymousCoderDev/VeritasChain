@@ -26,7 +26,9 @@ Verify it. Prove it. Share the proof with anyone.</p>
 
 <br/>
 
-<video src="gifs/Demo.mp4" autoplay loop muted playsinline width="100%"></video>
+![Demo Part 1](gifs/Demo-First-Half.gif)
+
+![Demo Part 2](gifs/Demo-Second-Half.gif)
 
 <br/>
 
